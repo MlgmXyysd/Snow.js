@@ -3,7 +3,8 @@ var snow = {
 		top: 0,
 		left: 0,
 		zIndex: 500,
-		number: 70
+		number: 70,
+		class: "snowCanvas"
 	},
 	down: function() {
 		var f = window.innerWidth;
