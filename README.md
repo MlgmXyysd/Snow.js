@@ -1,4 +1,4 @@
-# snow.js
+# Snow.js
 Let your page snowing
 
 ## usage
@@ -14,3 +14,6 @@ Let your page snowing
     });
 </script>
 ```
+
+## license
+MIT License
