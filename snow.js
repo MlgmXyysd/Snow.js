@@ -1,15 +1,16 @@
 /*!
- * Snow.js JavaScript Library v1.0.1
+ * Snow.js JavaScript Library v1.0.2
  *
  * Let your page snowing
  * 
  * https://github.com/MlgmXyysd/Snow.js
  * 
- * Copyright (c) 2013-2021 MeowCat Studio Powered by MlgmXyysd All Rights Reserved
+ * Copyright (c) 2013-2022 MeowCat Studio All Rights Reserved
+ * Copyright (c) 2002-2022 MlgmXyysd All Rights Reserved
  * Released under the MIT license
- * https://github.com/MlgmXyysd/snow.js/blob/master/LICENSE
+ * https://github.com/MlgmXyysd/Snow.js/blob/master/LICENSE
  *
- * Date: 2021-06-03T03:38Z
+ * Date: 2022-01-05T13:48Z
  */
 "use strict";
 
@@ -51,7 +52,7 @@ const snow = {
 		}
 		let b = d.getContext("2d");
 		let e = 0;
-		setInterval(function() {
+		return setInterval(function() {
 			b.clearRect(0, 0, f, g);
 			b.fillStyle = "rgba(255, 255, 255, 0.6)";
 			b.shadowBlur = 5;
@@ -87,6 +88,6 @@ const snow = {
 					}
 				}
 			}
-		}, 15)
+		}, 15);
 	}
 };
